@@ -141,6 +141,7 @@ df = None
 
 # Store df if loaded
 
+st.markdown(str(DATA_PATH))
 
 if DATA_PATH.exists():
     df_raw = pd.read_pickle(DATA_PATH)
