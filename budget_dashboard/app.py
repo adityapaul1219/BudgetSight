@@ -9,26 +9,6 @@ from utils import load_df, validate_and_prepare_df, describe_df
 DATA_PATH = Path(__file__).parent / "data" / "forecasts_actuals_df.pkl"
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 st.set_page_config(
     page_title="BudgetSight Dashboard",
     page_icon="📊",
@@ -81,7 +61,6 @@ This app automatically detects:
 """
 )
 
-downloads = Path("~/Downloads").expanduser()
 
 # uploaded = st.file_uploader("Upload data file (.csv or .parquet or .pkl)", type=["csv", "parquet", "pkl"])
 
@@ -163,12 +142,7 @@ df = None
 # Store df if loaded
 
 
-
-
-
-
-local_path = downloads / "forecasts_actuals_df.pkl"
-if local_path.exists():
+if DATA_PATH.exists():
     df_raw = pd.read_pickle(DATA_PATH)
     df_raw = df_raw[df_raw["fy"] >= 1980].copy()
     df = validate_and_prepare_df(df_raw)
