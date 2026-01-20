@@ -1,7 +1,7 @@
 # BudgetSight
 Federal Financial Budget Dashboard for Presidential AI Challenge
 
-**Live demo:** budgetsight.streamlit.app  
+**BudgetSight app:** https://budgetsight.streamlit.app  
 **Repo:** https://github.com/adityapaul1219/BudgetSight/
 
 **Video:**
