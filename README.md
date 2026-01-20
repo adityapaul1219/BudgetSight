@@ -4,6 +4,9 @@ Federal Financial Budget Dashboard for Presidential AI Challenge
 **Live demo:** budgetsight.streamlit.app  
 **Repo:** https://github.com/adityapaul1219/BudgetSight/
 
+**Video:** 
+<video src=https://github.com/adityapaul1219/BudgetSight/blob/main/AI_Challenge_Budgetsight.mp4 controls width="100%"></video>
+
 ## What this project is
 **BudgetSight** is an interactive Federal Budget dashboard that combines:
 - **Historical actuals** and **Prophet-based forecasts**
