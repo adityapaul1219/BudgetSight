@@ -6,6 +6,9 @@ Federal Financial Budget Dashboard for Presidential AI Challenge
 
 **Video:** https://github.com/adityapaul1219/BudgetSight/blob/main/AI_Challenge_Budgetsight.mp4
 
+**Video:**
+[![BudgetSight](http://img.youtube.com/vi/8uug9O9Rau4/0.jpg)](https://www.youtube.com/watch?v=8uug9O9Rau4 "BudgetSight")
+
 ## What this project is
 **BudgetSight** is an interactive Federal Budget dashboard that combines:
 - **Historical actuals** and **Prophet-based forecasts**
